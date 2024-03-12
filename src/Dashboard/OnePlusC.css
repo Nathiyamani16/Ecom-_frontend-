@@ -1,0 +1,46 @@
+/* Add these styles to your Card.css file */
+
+.One {
+    width: 190px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    display: inline-block; /* Display cards inline */
+    text-align: center; 
+  }
+  
+  .OneImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-self: center; /* Center the image within its flex container */
+    object-position: center;
+  }
+  
+  .OneContent {
+    padding: 16px;
+  }
+  
+
+  .OnePlusButton{
+    color: black;
+    background-color:#ff9900 ;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+    display:flex ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .onePlushead{
+    color: black;
+  }

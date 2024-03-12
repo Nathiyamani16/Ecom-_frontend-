@@ -1,0 +1,32 @@
+.FootTwoDiv{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FootLogo{
+    width: 150px;
+}
+
+
+.FootTwoDivTwo{
+    text-align: center;
+    font-size: medium;
+    background-color: #232f3e;
+}
+
+
+.Aus {
+  margin: 0 20px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.Aus:hover {
+  color: #ff9900; /* Change color on hover if needed */
+}
+
+

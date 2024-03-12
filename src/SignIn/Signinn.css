@@ -1,0 +1,75 @@
+.SigninCard{
+    width: 700px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    display: inline-block; /* Display cards inline */
+    text-align: center; 
+
+}
+
+
+.SigninEmail{
+    width: 280px;
+    height: 30px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.SigninP{
+    font-size: large;
+}
+
+
+.ForgotPass{
+    font-size: large;
+}
+
+
+.LoginButton{
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #ff9900;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+}
+
+
+
+.NewToAmazon{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+
+.SigninButton{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #f6ff00;
+    border: 2px solid #f6ff00;
+    border-radius: 5px;
+}
+
+
+.SiginInContainer{
+    display: flex;  /* Use flexbox for horizontal centering */
+    justify-content: center;  /* Align items in the center */
+}
+
+
+.SigninLogo{
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

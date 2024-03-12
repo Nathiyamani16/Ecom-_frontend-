@@ -1,0 +1,111 @@
+
+.product-detail-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .content-container {
+    flex: 1.5;
+  }
+  
+
+  .Prod-detail-p{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    background-color: #ff9900;
+    font-size: large;
+    font-weight: bold;
+  }
+
+
+  .MinusButton{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    background-color: #ff9900;
+  }
+
+  .PlusButton{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    background-color: #ff9900;
+  }
+
+  .Quality{
+    font-size: large;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+
+  .AddButton{
+    font-size: large;
+    width: 150px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+
+  .BuyButton{
+    font-size: large;
+    width: 150px;
+    background-color:#ff9900;
+    border: 2px solid #ff9900;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+
+  .OfferCard{
+    width: 190px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    display: inline-block; /* Display cards inline */
+    text-align: center; 
+  }
+
+
+  .break-line {
+    border-top: 2px solid black;
+    margin-top: 15px; /* Adjust the margin as needed */
+  }
+
+
+  .LogosCenter{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 5px; 
+  }
+
+
+  .LogosCenter .LogoCenterIcon {
+    font-size: 4em; /* Adjust the size as needed */
+  }
+
+
+
+
+
+  

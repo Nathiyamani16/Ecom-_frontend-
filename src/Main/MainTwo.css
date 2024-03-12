@@ -1,0 +1,104 @@
+/* .NavListt {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NavListt li {
+    margin-left: 40px;
+}
+
+.NavListt li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.NavListt li a:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.DashboardDiv {
+    background-color: #232f3e;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+.NavListt {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NavListt li {
+    margin-left: 40px;
+}
+
+.NavListt li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.NavListt li a:hover{
+    color: #ff9900;.DashboardDiv {
+    background-color: #232f3e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.NavListt {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to new lines */
+    gap: 20px; /* Adjust space between items */
+    overflow: auto; /* Enable horizontal scrolling if needed */
+}
+
+.NavListt li {
+    white-space: nowrap; /* Prevent text from wrapping */
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.NavListt li:hover {
+    border: 2px solid white;
+}
+
+    border-radius: 5px;
+}
+
+.DashboardDiv {
+    background-color: #232f3e;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

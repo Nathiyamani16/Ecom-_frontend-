@@ -1,0 +1,68 @@
+/* SearchResults.css */
+
+.search-results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-product-card {
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .search-card-image {
+    width: 200px; /* Adjust as needed */
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+  }
+  
+  .search-card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .search-card-details {
+    flex: 1;
+    padding: 16px;
+    margin-left: 10%;
+  }
+  
+  .search-p {
+    margin-bottom: 4px;
+  }
+  
+  .search-hthree {
+    margin-bottom: 8px;
+  }
+  
+
+
+  .search-price{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+    background-color: #ff9900;
+    font-size: large;
+    font-weight: bold;
+  }
+
+
+  .original-price {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  .price-container {
+    display: flex;
+    align-items: baseline;
+  }
