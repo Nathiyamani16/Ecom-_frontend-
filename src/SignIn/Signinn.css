@@ -1,36 +1,39 @@
-.SigninCard{
-    width: 700px;
+.SigninCard {
+    max-width: 700px;
+    width: 100%;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    display: inline-block; /* Display cards inline */
-    text-align: center; 
-
+    margin: 15px auto; /* Center the card horizontally and add space around it */
+    text-align: center;
+    padding: 20px; /* Add some padding inside the card */
 }
 
-
-.SigninEmail{
-    width: 280px;
+.SigninEmail {
+    width: 100%;
+    max-width: 280px;
     height: 30px;
     font-size: large;
     border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 10px;
+    padding: 5px; /* Add padding inside the input */
 }
 
-.SigninP{
+.SigninP {
     font-size: large;
+    margin-bottom: 10px;
 }
 
-
-.ForgotPass{
+.ForgotPass {
     font-size: large;
+    text-decoration: underline;
+    color: #333; /* Change the color to make it less prominent */
+    margin-bottom: 10px;
 }
 
-
-.LoginButton{
+.LoginButton {
     width: 150px;
     height: 30px;
     font-size: large;
@@ -38,39 +41,37 @@
     background-color: #ff9900;
     border: 2px solid #ff9900;
     border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 
-
-
-.NewToAmazon{
+.NewToAmazon {
     font-size: large;
     color: black;
     text-decoration: none;
+    margin-top: 10px;
+    display: inline-block; /* Display as inline-block to make it responsive */
 }
 
-
 .SigninButton {
-    display: inline-block;
     width: 200px;
     height: 40px;
-    font-size:medium;
+    font-size: medium;
     font-weight: bold;
     background-color: #f6ff00;
     border: 2px solid #f6ff00;
     border-radius: 5px;
-  }
-  
-
-.SiginInContainer{
-    display: flex;  /* Use flexbox for horizontal centering */
-    justify-content: center;  /* Align items in the center */
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    margin-top: 10px;
 }
 
+.ValidationError {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
 
-.SigninLogo{
+.SigninLogo {
     width: 250px;
-    justify-content: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 20px; /* Center the logo horizontally and add space below it */
+    display: block; /* Display as block to center it properly */
 }

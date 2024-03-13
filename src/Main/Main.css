@@ -1,20 +1,19 @@
-.Logo {
+/*.Logo {
     width: 150px;
-  }
-  
-  .search-box {
+}
+
+.search-box {
     display: flex;
     align-items: center;
-  }
-  
-  .search-box select,
-  .search-box input,
-  .search-box button {
-    margin-right: 10px;
-  }
-  
+}
 
-  .Signin{
+.search-box select,
+.search-box input,
+.search-box button {
+    margin-right: 10px;
+}
+
+.Signin {
     margin-left: auto;
     width: 80px;
     height: 40px;
@@ -24,9 +23,12 @@
     font-weight: 600;
     border: 2px solid #131921;
     border-radius: 10px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .Cart{
+.Cart {
     margin-left: 10px;
     margin-right: 20px;
     width: 80px;
@@ -37,10 +39,12 @@
     font-weight: 600;
     border: 2px solid #131921;
     border-radius: 10px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-.CenterOne{
+.CenterOne {
     margin-left: auto;
     margin-right: auto;
     width: 70px;
@@ -49,9 +53,12 @@
     border-radius: 10px;
     font-size: medium;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.Searchbar{
+.Searchbar {
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -60,24 +67,132 @@
     border-radius: 5px;
     font-size: medium;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
-
-.SearchIcon{
+.SearchIcon {
     width: 50px;
     height: 40px;
     border: 2px solid #131921;
     border-radius: 5px;
     background-color: #ff9900;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .DashboardDivv {
-    background-color: #131921
-
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.CartIcon{
+.CartIcon {
     font-size: 20px;
     font-weight: bold;
+}*/
+
+/* Default styles */
+
+.Logo {
+  width: 150px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box select,
+.search-box input,
+.search-box button {
+  margin-right: 10px;
+}
+
+.Signin,
+.Cart,
+.CenterOne,
+.Searchbar,
+.SearchIcon {
+  width: 80px;
+  height: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: medium;
+  font-weight: 600;
+  border: 2px solid #131921;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CenterOne {
+  width: 70px;
+}
+
+.Searchbar {
+  width: 500px;
+  height: 36px;
+  border-radius: 5px;
+}
+
+.SearchIcon {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ff9900;
+  font-size: 20px;
+}
+
+.DashboardDivv {
+  background-color: #131921;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CartIcon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .Logo {
+      width: 100px; 
+  }
+  
+  .Searchbar {
+      width: 300px; 
+  }
+  
+  .NavListt li {
+      margin-left: 20px; 
+  }
+  
+  
+}
+
+@media screen and (max-width: 480px) {
+ 
+  
+  .Logo {
+      width: 80px; 
+  }
+  
+  .Searchbar {
+      width: 200px;  
+  }
+  
+  .NavListt li {
+      margin-left: 10px; 
+  }
+  
+ 
 }
