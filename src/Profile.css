@@ -1,0 +1,33 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: center;
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+  }
+  .ProfileCard{
+    width: 700px;
+    border: 1px solid #bf5d5d;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(227, 160, 15, 0.64);
+    margin: 15px;
+    display: inline-block; /* Display cards inline */
+    text-align: center; 
+
+}
+  

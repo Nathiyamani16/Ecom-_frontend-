@@ -49,16 +49,17 @@
 }
 
 
-.SigninButton{
-    width: 300px;
-    height: 30px;
-    font-size: large;
+.SigninButton {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-size:medium;
     font-weight: bold;
     background-color: #f6ff00;
     border: 2px solid #f6ff00;
     border-radius: 5px;
-}
-
+  }
+  
 
 .SiginInContainer{
     display: flex;  /* Use flexbox for horizontal centering */

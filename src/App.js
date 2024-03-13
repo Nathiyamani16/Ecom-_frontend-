@@ -21,6 +21,7 @@ import WFH from "./Dashboard/WFH";
 import Indian from "./Dashboard/Indian";
 import OneplusProd from "./Dashboard/OneplusProd";
 import Mobiles from "./Dashboard/Mobiles";
+import Profile from "./Profilepage";
 const App = () => {
   return(
     <div>
@@ -44,6 +45,7 @@ const App = () => {
         <Route path="/Signin" element={<Signin />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/profile/:email" element={<Profile/>}/>
       </Routes>
       <FootTwo />
       <Footer />
