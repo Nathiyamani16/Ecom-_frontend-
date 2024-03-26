@@ -81,7 +81,7 @@ const Sample = () => {
       <Link to="/category/smart-gadgets" onClick={() => window.scrollTo(0, 0)} >
         <div className="Card">
           <br />
-          <h3 className="HeadingCard">Smart Gadgets for Smart People</h3>
+          <h3 className="HeadingCard">Smart Tech for Savvy Users</h3>
           <img src={SmartGad} alt="SampleImage" className="CardImage" />
           <div className="CardContent">
             <span>See all deals</span>

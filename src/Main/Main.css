@@ -116,6 +116,7 @@
 .Cart,
 .CenterOne,
 .Searchbar,
+.User,
 .SearchIcon {
   width: 80px;
   height: 40px;
@@ -128,6 +129,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1px;
 }
 
 .CenterOne {
@@ -159,7 +161,14 @@
   font-size: 20px;
   font-weight: bold;
 }
-
+.Username {
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.UserName{
+  color: #ffffff;
+}
 
 
 @media screen and (max-width: 768px) {

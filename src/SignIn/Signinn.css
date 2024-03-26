@@ -1,6 +1,6 @@
 .SigninCard {
-    max-width: 700px;
-    width: 100%;
+    max-width: 500px;
+    width: 60%;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -8,48 +8,78 @@
     margin: 15px auto; /* Center the card horizontally and add space around it */
     text-align: center;
     padding: 20px; /* Add some padding inside the card */
+    height:fit-content;
 }
 
 .SigninEmail {
     width: 100%;
     max-width: 280px;
     height: 30px;
-    font-size: large;
-    border: 2px solid black;
+    font-size: medium;
+    border: 2px solid rgb(89, 87, 87);
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 5px; /* Add padding inside the input */
 }
 
 .SigninP {
-    font-size: large;
+    font-size:medium;
     margin-bottom: 10px;
 }
 
 .ForgotPass {
-    font-size: large;
+    font-size: medium;
     text-decoration: underline;
     color: #333; /* Change the color to make it less prominent */
     margin-bottom: 10px;
 }
 
-.LoginButton {
+/* .LoginButton {
     width: 150px;
     height: 30px;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     background-color: #ff9900;
     border: 2px solid #ff9900;
     border-radius: 5px;
-    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
-}
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable 
+} */
+
+
+.LoginButton {
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #ff9900;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s infinite; /* Add pulsating animation */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
 
 .NewToAmazon {
-    font-size: large;
+    font-size: medium;
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    display: inline-block; /* Display as inline-block to make it responsive */
+    display: inline-block; 
+}
+.NewToAmazon:hover{
+    color: #000000;
 }
 
 .SigninButton {
@@ -57,21 +87,32 @@
     height: 40px;
     font-size: medium;
     font-weight: bold;
-    background-color: #f6ff00;
-    border: 2px solid #f6ff00;
-    border-radius: 5px;
-    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    background-color: #fcef00;
+    border: 3px solid #2fff00fc;
+    border-radius: 10px;
+    cursor: pointer;
     margin-top: 10px;
-}
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+  
+  }
+  
+  .SigninButton:hover {
+    box-shadow: 0 0 10px #a2ff00, 0 0 20px #1aff00, 0 0 30px #55ff00; /* Add a glow effect on hover */
+  }
+  
 
-.ValidationError {
-  color: red;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
+.error {
+    color: red;
+  }
+  
 
 .SigninLogo {
-    width: 250px;
+    width: 200px;
     margin: 0 auto 20px; /* Center the logo horizontally and add space below it */
     display: block; /* Display as block to center it properly */
 }
+
+.ErrorMessage {
+    color: red;
+  }
+  
