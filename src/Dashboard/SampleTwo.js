@@ -35,7 +35,7 @@ const SampleTwo = () =>{
       <Link to="/category/WFH"  onClick={() => window.scrollTo(0, 0)} >
       <div className="Card">
         <br />
-        <h3 className="HeadingCard">Work from Home Essentials</h3>
+        <h3 className="HeadingCard">Work from Home</h3>
         <img src={SampleImage6} alt="SampleImage" className="CardImage" />
         <div className="CardContent">
         <span>See all Deals</span>

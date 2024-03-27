@@ -1,4 +1,47 @@
 /* ImageUploadForm.css */
+/* ImageUploadForm.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190vh; /* Use the full height of the viewport */
+}
+
+.form {
+  width: 400px; /* Set the width of the form */
+  padding: 20px; /* Adjust padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form input,
+.form textarea,
+.form button {
+  width: 100%;
+  margin-bottom: 15px; /* Adjust margin-bottom */
+  padding: 10px; /* Adjust padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
 .rating-container {
     display: flex;
     align-items: center;

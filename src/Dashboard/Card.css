@@ -2,6 +2,7 @@
 
 .Card {
     width: 300px;
+    height: fit-content;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;

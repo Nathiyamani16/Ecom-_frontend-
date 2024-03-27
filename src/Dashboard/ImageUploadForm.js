@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ImageUploadForm.css"; // Add a CSS file for styling
 
-
 const ImageUploadForm = () => {
   const navigate = useNavigate();
   const [profileImage, setProfileImage] = useState(null);
@@ -10,19 +9,21 @@ const ImageUploadForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState("");
-  const [originalPrice, setOriginalPrice] = useState("")
+  const [originalPrice, setOriginalPrice] = useState("");
   const [category, setCategory] = useState("");
   const [rating, setRating] = useState(0);
   const [rated, setRated] = useState("400+ Rated");
-  const [used, setUsed] = useState("3,000 users bought this dress in past 3 weeks");
+  const [used, setUsed] = useState(
+    "3,000 users bought this dress in past 3 weeks"
+  );
   const [offerOneTitle, setOfferOneTitle] = useState("Bank Offer");
-  const [offerOneDescription, setofferOneDescription] = useState("Save upto ₹50 on HDFC and ICICI Bank ");
-  const [offerTwoDescription, setofferTwoDescription] = useState("Get GST Invoice upto 10% on this Product");
+  const [offerOneDescription, setofferOneDescription] = useState(
+    "Save upto ₹50 on HDFC and ICICI Bank "
+  );
+  const [offerTwoDescription, setofferTwoDescription] = useState(
+    "Get GST Invoice upto 10% on this Product"
+  );
   const [offerTwoTitle, setOfferTwoTitle] = useState("Partner Offer");
-
-
-
-
 
   const handleProfileImageChange = (event) => {
     const file = event.target.files[0];
@@ -72,14 +73,17 @@ const ImageUploadForm = () => {
     navigate("/");
   };
 
-
-
   return (
-    <div>
+    <div className="container">
+       <div className="form">
       <h1>Create a Product</h1>
       <form onSubmit={handleSubmit}>
         {/* Add onChange handlers for other input fields */}
-        <input type="text" placeholder="Title" onChange={(e) => setTitle(e.target.value)} />
+        <input
+          type="text"
+          placeholder="Title"
+          onChange={(e) => setTitle(e.target.value)}
+        />
         <br />
         <input
           type="text"
@@ -87,11 +91,23 @@ const ImageUploadForm = () => {
           onChange={(e) => setDescription(e.target.value)}
         />
         <br />
-        <input type="number" placeholder="Price" onChange={(e) => setPrice(e.target.value)} />
+        <input
+          type="number"
+          placeholder="Price"
+          onChange={(e) => setPrice(e.target.value)}
+        />
         <br />
-        <input type="text" placeholder="Orginal Price" onChange={(e) => setOriginalPrice(e.target.value)} />
+        <input
+          type="text"
+          placeholder="Orginal Price"
+          onChange={(e) => setOriginalPrice(e.target.value)}
+        />
         <br />
-        <input type="text" placeholder="Enter the Category" onChange={(e) => setCategory(e.target.value)} />
+        <input
+          type="text"
+          placeholder="Enter the Category"
+          onChange={(e) => setCategory(e.target.value)}
+        />
         <br />
 
         {profileImageUrl && (
@@ -125,32 +141,51 @@ const ImageUploadForm = () => {
           ))}
         </div>
 
-
         <br />
 
-        <input type="text" placeholder="Rated" onChange={(e) => setRated(e.target.value)} />
+        <input
+          type="text"
+          placeholder="Rated"
+          onChange={(e) => setRated(e.target.value)}
+        />
         <br />
-        <input type="text" placeholder="Used" onChange={(e) => setUsed(e.target.value)} />
+        <input
+          type="text"
+          placeholder="Used"
+          onChange={(e) => setUsed(e.target.value)}
+        />
         <br />
         <br />
-        <br/>
-        <br />
-        <br />
-        <input type="text" placeholder="Offer One Title" onChange={(e) => setOfferOneTitle(e.target.value)} />
-<br />
-<input type="text" placeholder="Offer One Description" onChange={(e) => setofferOneDescription(e.target.value)} />
-<br />
 
+        <input
+          type="text"
+          placeholder="Offer One Title"
+          onChange={(e) => setOfferOneTitle(e.target.value)}
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Offer One Description"
+          onChange={(e) => setofferOneDescription(e.target.value)}
+        />
+        <br />
 
-<input type="text" placeholder="Offer Two Title" onChange={(e) => setOfferTwoTitle(e.target.value)} />
-<br />
-<input type="text" placeholder="Offer Two Description" onChange={(e) => setofferTwoDescription(e.target.value)} />
-<br />
+        <input
+          type="text"
+          placeholder="Offer Two Title"
+          onChange={(e) => setOfferTwoTitle(e.target.value)}
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Offer Two Description"
+          onChange={(e) => setofferTwoDescription(e.target.value)}
+        />
+        <br />
 
-
-    
         <button type="submit">Create a Product</button>
       </form>
+      </div>
     </div>
   );
 };

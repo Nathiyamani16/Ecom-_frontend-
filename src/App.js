@@ -5,7 +5,7 @@ import { Route,Routes } from "react-router-dom";
 import Sample from "./Dashboard/Sample";
 import HeaderTwo from "./Main/HeaderTwo";
 import FootTwo from "./Main/FootTwo";
-import MakeupProducts from "./Dashboard/MakeupProducts";
+import MakeupProducts from "./Dashboard/Products";
 import ImageUploadForm from "./Dashboard/ImageUploadForm";
 import MensFashion from "./Dashboard/MensFashion";
 import SearchResults from "./SearchResults";

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import "./MakeupProducts.css";
+import "./Products.css";
 import Filter from "./Filter";
 import StarRating from "./StarRating";
 
